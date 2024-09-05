@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  font: 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 24%, 87%);
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+.container {
+  width: 45rem;
+  padding: 2rem;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  margin: auto;
+}
+
+.container img {
+  width: 680px;
+  height: auto;
+  margin-bottom: 2px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.container p:first-of-type {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+.container h3 {
+  color: hsl(332, 51%, 32%);
+  padding: 15px;
+}
+.container h2 {
+  font-weight: 200;
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+}
+
+.preparation-list .highlight {
+  font-size: 17px;
+  font-weight: 700;
+}
+.preparation-list {
+  line-height: 2.5;
+}
+.ingredients {
+  padding: 2%;
+}
+.ingredients-list {
+  line-height: 2.5;
+}
+
+.instructions-list .highlight {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.instructions-list {
+  line-height: 2;
+}
+.instructions ::marker {
+  font-size: 17px;
+  font-weight: 700;
+}
+.instructions {
+  padding: 2%;
+}
+.nutrition {
+  padding: 5px;
+}
+.nutrition-table .highlight {
+  font-size: 17px;
+  font-weight: 700;
+}
+.nutrition-table {
+  width: 100%;
+}
+.nutrition-table .first {
+  padding-left: 100px;
+}
+
+@media (max-width: 200px) {
+  .container {
+    width: 85%;
+  }
+}
